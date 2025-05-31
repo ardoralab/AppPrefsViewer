@@ -18,6 +18,12 @@ It allows you to inspect and modify `UserDefaults` (plist) data of apps running 
 
 This tool is helpful for debugging preferences, testing onboarding flows, and inspecting app state stored in `UserDefaults`.
 
+## 🚫 Why Not on the App Store?
+
+AppPrefs Viewer accesses simulator files directly, which violates macOS sandboxing restrictions.  
+Because of this, it **can’t be distributed via the Mac App Store**.  
+Instead, you can easily install it from source using Xcode.
+
 ## 📦 Installation
 
 Clone this repo and open in Xcode:
